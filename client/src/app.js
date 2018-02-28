@@ -45,7 +45,8 @@ const deleteButtonClicked = function(event){
 }
 
 const deleteRequestComplete = function(status){
-  console.log(status);
+  // console.log(status);
+  quoteView.clear();
 }
 
 document.addEventListener('DOMContentLoaded', appStart);
